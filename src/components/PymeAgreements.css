@@ -1,0 +1,45 @@
+.pymes {
+  background-color: var(--color-white);
+  padding: 5rem 0;
+}
+
+.pymes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.pymes-subtitle {
+  font-size: 1.15rem;
+  color: var(--color-text-dark);
+  margin-bottom: 2rem;
+}
+
+.pymes-benefits {
+  margin-bottom: 2.5rem;
+}
+
+.pymes-benefits li {
+  margin-bottom: 1rem;
+  color: var(--color-text-light);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.pymes-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(72, 104, 118, 0.08);
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .pymes-container {
+    grid-template-columns: 1fr;
+  }
+}

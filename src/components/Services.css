@@ -1,0 +1,110 @@
+.services {
+  background-color: transparent;
+}
+
+.services-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.services-subtitle {
+  color: var(--color-blue-gray);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background-color: var(--color-white);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* El borde y hover será manejado nativamente por el GlowCard / before-after styles */
+}
+
+.service-card:hover {
+  transform: translateY(-5px) scale(1.03); /* Reduje la escala un poco para q no tape la ui vecina con the glow */
+  box-shadow: 0 15px 35px rgba(72, 104, 118, 0.1);
+}
+
+.service-icon {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: #F5F1EB;
+  border-radius: 50%;
+}
+
+.service-icon-img {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+  background: transparent;
+}
+
+.service-card h3 {
+  font-size: 1.35rem;
+  color: var(--color-blue-gray);
+  margin-bottom: 1rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.service-card p {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.secondary-services-wrapper {
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(72, 104, 118, 0.05);
+}
+
+.secondary-title {
+  text-align: center;
+  color: var(--color-blue-gray);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.secondary-services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.secondary-services-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--color-blue-gray);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.check-icon {
+  color: var(--color-gold);
+  font-weight: bold;
+}
