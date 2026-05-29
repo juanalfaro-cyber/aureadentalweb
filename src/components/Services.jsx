@@ -1,6 +1,5 @@
 import React from 'react';
 import './Services.css';
-import { GlowCard } from './ui/GlowCard';
 import { GradientBackground } from './ui/GradientBackground';
 
 const Services = () => {
@@ -57,13 +56,13 @@ const Services = () => {
 
         <div className="services-grid">
           {primaryServices.map(service => (
-            <GlowCard key={service.id} className="service-card" glowColor="gold">
+            <div key={service.id} className="service-card">
               <div className="service-icon">
                 <img src={service.icon} alt={service.title} className="service-icon-img" />
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-            </GlowCard>
+            </div>
           ))}
         </div>
 
