@@ -18,8 +18,8 @@ const WhyChooseUs = () => {
                 </svg>
               </div>
               <div className="feature-text">
-                <h3>Equipamiento de Vanguardia</h3>
-                <p>Contamos con tecnología clínica de última generación que nos permite realizar diagnósticos precisos e intervenciones seguras y predecibles.</p>
+                <h3>Equipamiento Moderno</h3>
+                <p>Contamos con tecnología moderna que nos permite realizar diagnósticos precisos e intervenciones seguras y predecibles.</p>
               </div>
             </div>
             

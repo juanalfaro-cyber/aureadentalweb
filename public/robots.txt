@@ -1,0 +1,18 @@
+# robots.txt para aureadentalcare.com.mx
+# Permitir el rastreo completo a motores de búsqueda y asistentes de IA principales
+
+User-agent: *
+Allow: /
+
+# Directrices específicas para Google y OpenAI (ChatGPT Search / GPTBot)
+User-agent: Googlebot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Sitemap oficial del sitio
+Sitemap: https://aureadentalcare.com.mx/sitemap.xml

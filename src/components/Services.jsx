@@ -14,25 +14,25 @@ const Services = () => {
     {
       id: 2,
       title: 'Endodoncia',
-      description: 'Tratamiento especializado de conductos ejecutado para conservar la estructura natural de sus dientes.',
+      description: 'Tratamiento especializado de conductos diseñado para conservar la estructura natural de sus dientes. Con atención profesional en endodoncia en Zapopan.',
       icon: '/icono-endo.png'
     },
     {
       id: 3,
       title: 'Limpieza Dental',
-      description: 'Protocolos de profilaxis profunda enfocados en mantener la salud de sus tejidos gingivales y prevenir complicaciones.',
+      description: 'Protocolos de profilaxis profunda enfocados en eliminar sarro y placa bacteriana. Reserva tu limpieza dental en Zapopan para prevenir complicaciones.',
       icon: '/icono-limpieza.png'
     },
     {
       id: 4,
       title: 'Resinas Estéticas',
-      description: 'Restauraciones elaboradas con materiales de alta calidad clínica que devuelven la integridad estructural al diente.',
+      description: 'Restauraciones de alta calidad clínica y del mismo tono de tu diente para devolverle su integridad estructural. Conoce nuestras resinas estéticas en Zapopan.',
       icon: '/icono-resina.png'
     },
     {
       id: 5,
       title: 'Blanqueamiento',
-      description: 'Procedimiento seguro y supervisado bajo estándares médicos, diseñado para devolver un tono sano y armónico a su dentadura.',
+      description: 'Procedimiento seguro y supervisado bajo estándares médicos, diseñado para devolver un tono sano y armónico a su dentadura con un blanqueamiento dental en Zapopan.',
       icon: '/icono-blanqueamiento.png'
     }
   ];
